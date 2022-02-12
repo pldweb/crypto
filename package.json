@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./style.css -o ./output.css --watch",
-    "final dev": "npx tailwind -o ./style.css -o ./output.css --minify"
+    "final": "npx tailwindcss -o ./assets/final.css --minify"
   },
   "keywords": [],
   "author": "",

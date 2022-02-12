@@ -7,3 +7,7 @@
 # doc/**/*.txt # abaikan semua file .txt didalam direktori doc/
 
 node_modules/
+style.css
+package-lock.json
+package.json
+tailwind.config.js
