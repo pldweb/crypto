@@ -1,0 +1,9 @@
+# # sebuah komentar - ini akan diabaikan
+# # *.a          # abaikan semua file dengan akhiran .a
+# # !lib.a       # tetapi lakukan track pada lib.a, jika telah mengabaikan file .a diatas
+# /TODO        # hanya abaikan semua file yang ada didalam TODO, tetapi tidak dengan subdirektori /TODO
+# build/       # abaikan semua file didalam direktori build/ termasuk didalam subdirektorinya
+# doc/*.txt    # abaikan doc/notes.txt, tetapi tidak dengan doc/server/arch.txt
+# doc/**/*.txt # abaikan semua file .txt didalam direktori doc/
+
+node_modules/
